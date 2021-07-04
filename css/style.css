@@ -1,6 +1,8 @@
-/* geral */
+/* geral - normalização*/
 
-* {
+*,
+*::before,
+*::after {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -8,6 +10,8 @@
   font-family: sans-serif;
   font-size: 14px;
 }
+
+/* declaração de variáveis CSS */
 
 :root {
   --body-bg: rgb(243, 243, 243);
@@ -17,6 +21,8 @@
   --body-bg: rgb(043, 043, 043);
   color: white;
 }
+
+/* body */
 
 body {
   width: 100%;
@@ -85,6 +91,10 @@ body {
 .round::before {
   border-radius: 50%;
 }
+
+/* fim chackbox estilos */
+
+/* wrapper */
 
 .instagram-wrapper {
   display: flex;
